@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Timer Clock</title>
+</head>
+
+<body>
+    <div class="center_div">
+        <table widht="100%">
+            <td class="ok">
+                <h1 id="h">00</h1>
+            </td>
+            <td class="ok">
+                <h1 id="m">00</h1>
+            </td>
+            <td class="ok">
+                <h1 id="s">00</h1>
+            </td>
+            <td class="ok">
+                <h1 id="ms">00</h1>
+            </td>
+        </table>
+    </div>
+    <div class="controller">
+        <button onclick="start()" id="start">start</button>
+        <button onclick="stop()" class="stop-btn" id="stop" style="display: none;">stop</button>
+        <button onclick="reset()" style="display: none;" id="reset">restart</button>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
